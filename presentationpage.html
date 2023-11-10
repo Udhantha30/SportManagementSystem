@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Presentation page</title>
+	<link rel="stylesheet" href="css/splashscreen.css">
+</head>
+
+<body>
+	<!-- This uses the id splash, this is the first part of the animation where the logo appears first for a few seconds -->
+	<div id="splash">
+		<img id="logo" src="image/logo.png" alt="NRU SPORTS">
+	</div>
+	<!-- I used div called container to create a table like structure to show all group member details -->
+
+	<div class="container">
+		<div class="logo">
+			<img src="image/logo.png" alt="Your Logo">
+		</div>
+		<div class="card">
+			<div class="card-header">
+				<h2>Student Details</h2>
+			</div>
+			<div class="card-body">
+				<div class="student">
+					<h3><b>Nashan Unais</b></h3>
+					<p><b>ID: 20220294</b></p>
+					<a href="pageeditor-nashan.html"><p><b>Student 1</b></p></a>
+				</div>
+				<div class="student">
+					<h3><b>Ravindu Dahanayake</b></h3>
+					<p><b>ID: 20222300</b></p>
+					<a href="page_editor_ravindu.html"><p><b>Student 2</b></p></a>
+				</div>
+				<div class="student">
+					<h3><b>Udhantha Sandaru</b></h3>
+					<p><b>ID: 20220726</b></p>
+					<a href="page_editor_udhantha.html"><p><b>Student 3</b></p></a>
+				</div>
+				<div class="student">
+					<h3><b>Sudharshan Ravichandran</b></h3>
+					<p><b>ID: 20221703</b></p>
+					<a href="page_editor_sudharshan.html"><p><b>Student 4</b></p></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Java script to make it open the home page after displaying the student details for a few seconds -->
+	<script>
+		setTimeout(function () {
+			window.location.href = 'index.html';
+		}, 4000);
+	</script>
+
+
+	</body>
+</html>

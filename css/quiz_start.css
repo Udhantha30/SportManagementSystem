@@ -1,0 +1,86 @@
+.nav-content-2 ul li:nth-child(4) a {
+    color: var(--hover-text-color);
+}
+
+/*  */
+
+.body-content .box {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-content {
+    width: calc(800px - 20px);
+    max-width: calc(800px - 20px);
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.leftSide,
+.rightSide {
+    width: 50%;
+}
+
+.leftSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide h1 {
+    font-family: var(--lexend);
+    text-align: center;
+}
+
+.rightSide h2 {
+    font-family: var(--abel);
+    margin-top: 20px;
+}
+
+.rightSide ul li {
+    font-family: var(--abel);
+    margin-top: 10px;
+    list-style: none;
+}
+
+.quiz-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rightSide a {
+    font-family: var(--abel);
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 5px 80px;
+    background-color: var(--hover-text-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.rightSide a:hover {
+    background-color: blue;
+}
+
+@media(max-width:768px) {
+
+    .leftSide {
+        display: none;
+    }
+
+    .rightSide {
+        width: 100%;
+    }
+
+}
